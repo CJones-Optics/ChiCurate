@@ -57,14 +57,17 @@ if __name__=="__main__":
 """
 
     for index, item in enumerate(items):
-        html_report += f"<div class='item-box'>"
+        html_report += "<div class='item-box'>"
         html_report += f"<h2>{index+1}. {item['title']}</h2>"
         html_report += f"<p><strong>Abstract: </strong>{item['abstract']}</p>"
         html_report += f"<a href='{item['link']}' class='button'>Read More</a>"
         html_report += f"<a href='{item['pdf']}' class='button'>PDF</a>"
+        html_report += "<div class='rating-bar-container'>"
+        html_report += f"<div class='rating-bar' style='width: {item['Rating']*100}%'></div>"
+        html_report += "</div>"
         html_report += f"<p><strong>Rating: </strong>{item['Rating']}</p>"
         html_report += f"<p><strong>Justification: </strong>{item['Justification']}</p>"
-        html_report += f"</div>"
+        html_report += "</div>"
     html_report += "</main></html>"
     # Save the HTML report to a file
     with open('./report.html', 'w') as file:

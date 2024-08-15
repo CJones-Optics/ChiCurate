@@ -25,3 +25,18 @@ body {
 .button:hover {
     background-color: #0056b3;
 }
+.rating-bar-container {
+    width: 100%;
+    background-color: #e0e0e0; /* Light grey background */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden;
+    height: 20px; /* Fixed height for the bar */
+    margin-bottom: 10px; /* Space below the bar */
+}
+
+.rating-bar {
+    height: 100%;
+    background-color: #4caf50; /* Green color for the filled part */
+    width: 0%; /* Initial width */
+    transition: width 0.3s ease; /* Smooth transition */
+}
