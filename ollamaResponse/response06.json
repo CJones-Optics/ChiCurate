@@ -1,0 +1,36 @@
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "items": [
+      {
+        "ArticleID": "oai:arXiv.org:2408.07074v1",
+        "Justification": "The article is about mobile cellular and satellite communication compatibility, which is not directly related to Free Space Optical Communication (FSOC) or adaptive optics.",
+        "Rating": 0.1
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07103v1",
+        "Justification": "While this article mentions Orbital Angular Momentum (OAM), it is primarily focused on Massive MIMO and mmWave communications, which are not the main interests of the researcher.",
+        "Rating": 0.3
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07105v1",
+        "Justification": "This article directly relates to OAM-based wireless communications and misaligned transceivers, which is of interest to the researcher.",
+        "Rating": 0.9
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07202v1",
+        "Justification": "Although this article involves antenna arrays and localization, it does not directly relate to FSOC or adaptive optics.",
+        "Rating": 0.2
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07281v1",
+        "Justification": "This article is about sensors for movement analysis, which is not relevant to FSOC or adaptive optics.",
+        "Rating": 0.1
+      }
+    ]
+  },
+  "required": ["items"]
+}
+```

@@ -1,0 +1,58 @@
+ArticleID,Justification,Rating
+oai:arXiv.org:2408.07126v1,"While this article discusses improving radial velocities, it is focused on astronomy and not specifically related to free space optical communication or adaptive optics.",0.3
+oai:arXiv.org:2408.07242v1,"This article discusses ultraviolet technology for a future space observatory, which is relevant to optical engineering but not specifically focused on free space optical communication or adaptive optics.",0.5
+oai:arXiv.org:2408.07134v1,"This article is about frequency shift in binary lensing systems, which is not directly related to free space optical communication or adaptive optics.",0.2
+oai:arXiv.org:2408.07474v1,"This article discusses debiasing astro-photometric observations, which is not directly relevant to free space optical communication or adaptive optics.",0.3
+oai:arXiv.org:2408.06947v2,"This article focuses on kilonova light curve parameter estimation, which is not directly relevant to free space optical communication or adaptive optics.",0.3
+oai:arXiv.org:2408.07076v1,"While this paper discusses high-quality optical resonators, it does not directly relate to adaptive optics or free space optical communication.",0.3
+oai:arXiv.org:2408.07108v1,This paper is about machine learning and does not relate to the optical engineering or communication aspects you're interested in.,0.1
+oai:arXiv.org:2408.07140v1,"This paper focuses on nanoscale metal alloy particles and does not relate to adaptive optics, optical communication, or wavefront sensing.",0.1
+oai:arXiv.org:2408.07267v1,"This paper discusses photonic topological Anderson insulators, which is not directly relevant to your interests in adaptive optics and optical communication.",0.2
+oai:arXiv.org:2408.07301v1,"This paper focuses on particle rotation driven by cylindrical polarization, which is not directly related to your research interests in FSOC and adaptive optics.",0.2
+oai:arXiv.org:2408.07306v1,"While attosecond optical pulses are fascinating, they do not directly relate to adaptive optics or atmospheric turbulence in FSOC.",0.2
+oai:arXiv.org:2408.07323v1,"This article focuses on Floquet topological systems, which is not directly related to photonic lanterns or laser communication in FSOC.",0.2
+oai:arXiv.org:2408.07347v1,"While this article deals with valley photonic crystals, it does not discuss adaptive optics or wavefront sensing and control relevant to FSOC.",0.3
+oai:arXiv.org:2408.07348v1,"This article focuses on photon momentum transfer and acceleration sensing, which is not directly relevant to FSOC systems.",0.2
+oai:arXiv.org:2408.07354v1,"This article presents a fiber optic optofluidic sensor using an open Fabry-Perot interferometer, which is not directly related to adaptive optics or atmospheric turbulence in FSOC.",0.3
+oai:arXiv.org:2408.07446v1,"While this paper discusses photonic crystals, it focuses on atomic doping and nonreciprocal optical properties, which is not directly related to the researcher's interests in adaptive optics, atmospheric turbulence, or laser communication.",0.3
+oai:arXiv.org:2408.07487v1,"This paper is on optical sensing with multispectral readout but does not directly relate to the researcher's interests in adaptive optics, wavefront sensing and control, or phase control.",0.4
+oai:arXiv.org:2408.07672v1,"This paper focuses on spatial light modulator calibration and pixel crosstalk optimization, which is relevant to adaptive optics but lacks direct connection to the researcher's specific interests in FSOC and atmospheric turbulence.",0.5
+oai:arXiv.org:2408.07085v1,"This paper discusses antenna bandwidth and directivity, which is not directly related to the researcher's interests in optical communication or adaptive optics.",0.2
+oai:arXiv.org:2408.07187v1,"This paper presents a micro-integrated crossed-beam optical dipole trap system for mobile atomic quantum technologies, which is not directly related to the researcher's interests in FSOC or adaptive optics.",0.3
+oai:arXiv.org:2408.07197v1,"Does not focus on optical communication or adaptive optics; instead, it explores hybrid magnonics with localized spoof surface plasmon polaritons.",0.2
+oai:arXiv.org:2408.07211v1,"Primarily concerned with WDM systems; while it touches on optical communication, it lacks direct relevance to adaptive optics or atmospheric turbulence monitoring.",0.3
+oai:arXiv.org:2408.07577v1,"Focuses on squeezed states of light and high-harmonic generation, which is not directly relevant to the researcher's interests in adaptive optics or FSOC communication.",0.2
+oai:arXiv.org:2303.10932v4,"While it involves light and chirality, this article is more suited for researchers in topological photonics rather than those focused on adaptive optics or FSOC communication.",0.4
+oai:arXiv.org:2312.14393v2,"Deals with Anderson localization of light in disordered systems, which has some relevance to atmospheric turbulence monitoring but lacks direct focus on adaptive optics or FSOC communication.",0.5
+oai:arXiv.org:2407.14927v2,"Does not relate to adaptive optics, optical communication, or atmospheric turbulence.",0.3
+oai:arXiv.org:2408.06771v2,"While it involves wave phenomena, it is not directly related to adaptive optics or optical communication systems.",0.5
+oai:arXiv.org:2408.06861v2,"Focuses on the chaotic behavior of frequency combs, not directly relevant to adaptive optics or atmospheric turbulence monitoring.",0.4
+oai:arXiv.org:2308.00612v2,"Deals with theoretical physics concepts unrelated to practical aspects of optical engineering, free space optics, or laser communication.",0.2
+oai:arXiv.org:2401.00723v2,"The concept of a twisted wavefront is relevant to adaptive optics and wavefront sensing, thus potentially interesting for the researcher.",0.8
+oai:arXiv.org:2408.07074v1,"The article is about mobile cellular and satellite communication compatibility, which is not directly related to Free Space Optical Communication (FSOC) or adaptive optics.",0.1
+oai:arXiv.org:2408.07103v1,"While this article mentions Orbital Angular Momentum (OAM), it is primarily focused on Massive MIMO and mmWave communications, which are not the main interests of the researcher.",0.3
+oai:arXiv.org:2408.07105v1,"This article directly relates to OAM-based wireless communications and misaligned transceivers, which is of interest to the researcher.",0.9
+oai:arXiv.org:2408.07202v1,"Although this article involves antenna arrays and localization, it does not directly relate to FSOC or adaptive optics.",0.2
+oai:arXiv.org:2408.07281v1,"This article is about sensors for movement analysis, which is not relevant to FSOC or adaptive optics.",0.1
+oai:arXiv.org:2408.07282v1,"This paper focuses on human activity recognition using wearables, which is not related to Free Space Optical Communication (FSOC) or adaptive optics.",0.0
+oai:arXiv.org:2408.07320v1,"This paper deals with Coordinated Spectral Efficiency Prediction for real-world 5G CoMP systems, which is not directly related to FSOC or adaptive optics.",0.0
+oai:arXiv.org:2408.07480v1,"This paper discusses Adaptive Basis Function Selection for Computationally Efficient Predictions, which is not specifically relevant to FSOC or adaptive optics.",0.0
+oai:arXiv.org:2408.07592v1,"This paper focuses on Multi-periodicity dependency Transformer based on spectrum offset for radio frequency fingerprint identification, which is not related to FSOC or adaptive optics.",0.0
+oai:arXiv.org:2408.07592v1,"This paper focuses on Multi-periodicity dependency Transformer based on spectrum offset for radio frequency fingerprint identification, which is not related to FSOC or adaptive optics.",0.0
+oai:arXiv.org:2408.07626v1,"The article is focused on communication in bacterial biofilm, which is not relevant to Free Space Optical Communication (FSOC) or adaptive optics.",0.0
+oai:arXiv.org:2408.07692v1,"While this article discusses neural networks for communication systems, it does not specifically relate to FSOC or adaptive optics.",0.3
+oai:arXiv.org:2408.07099v1,"This article is about fault diagnosis in mechanical systems, not related to FSOC or adaptive optics.",0.0
+oai:arXiv.org:2408.07157v1,Object tracking using Kalman filters is not directly relevant to FSOC or adaptive optics.,0.2
+oai:arXiv.org:2408.07247v1,"This article is about wireless signal modulation classification, not related to optical communication or adaptive optics.",0.0
+oai:arXiv.org:2408.07292v1,"This paper is about a tokenizer for self-supervised learning of time series data via language models, which is not directly related to adaptive optics or FSOC.",0.0
+oai:arXiv.org:2408.07385v1,"This paper discusses iterative equalization of CPM with unitary approximate message passing, which is related to signal processing but not specifically to adaptive optics or FSOC.",0.2
+oai:arXiv.org:2408.07547v1,"This paper presents a method for high-fidelity waveform generation, which could potentially have applications in FSOC but does not directly address adaptive optics or atmospheric turbulence.",0.3
+oai:arXiv.org:2211.13479v4,"This paper focuses on exponential function reconstruction for biomedical magnetic resonance applications, which is not relevant to adaptive optics or FSOC.",0.0
+oai:arXiv.org:2308.13777v2,"This paper discusses self-supervised scalable deep compressed sensing, which could have broad applications in signal processing but does not directly address adaptive optics or FSOC.",0.2
+oai:arXiv.org:2401.17575v3,"While this paper discusses improving channel reciprocity, it is focused on Reconfigurable Intelligent Surfaces (RIS) for physical layer key generation, which is not directly related to FSOC or adaptive optics.",0.2
+oai:arXiv.org:2402.01138v2,"This paper is a survey on using Graph Neural Networks for EEG-based emotion recognition, which is not related to FSOC or the specific topics of interest.",0.0
+oai:arXiv.org:2403.08563v2,"This paper focuses on distributed deep learning for modulation classification in future wireless networks (6G), which is not directly related to FSOC or adaptive optics.",0.1
+oai:arXiv.org:2404.15332v2,"This is a systematic review of machine learning algorithms for seizure detection in EEG, which has no relevance to FSOC or the mentioned interests.",0.0
+oai:arXiv.org:2406.16908v3,"While this paper involves machine learning and EEG, it is focused on neonatal seizure detection using a reduced montage, which is not related to FSOC or adaptive optics.",0.0
+oai:arXiv.org:2408.06425v2,"While the paper uses Bayesian learning, it is focused on a nonlinear multiscale state-space model for weather forecasting, not directly relevant to FSOC or adaptive optics.",0.3
+oai:arXiv.org:2403.09477v2,"VIRUS-NeRF is a neural radiance fields method combining vision, infrared, and ultrasound data. It's more related to computer vision and sensing techniques, not directly focused on optical communication or adaptive optics in FSOC.",0.4

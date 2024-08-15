@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": [
+        {
+          "ArticleID": "oai:arXiv.org:2408.06425v2",
+          "Justification": "While the paper uses Bayesian learning, it is focused on a nonlinear multiscale state-space model for weather forecasting, not directly relevant to FSOC or adaptive optics.",
+          "Rating": 0.3
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2403.09477v2",
+          "Justification": "VIRUS-NeRF is a neural radiance fields method combining vision, infrared, and ultrasound data. It's more related to computer vision and sensing techniques, not directly focused on optical communication or adaptive optics in FSOC.",
+          "Rating": 0.4
+        }
+      ]
+    }
+  },
+  "required": ["items"]
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "items": [
+      {
+        "ArticleID": "oai:arXiv.org:2408.07292v1",
+        "Justification": "This paper is about a tokenizer for self-supervised learning of time series data via language models, which is not directly related to adaptive optics or FSOC.",
+        "Rating": 0
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07385v1",
+        "Justification": "This paper discusses iterative equalization of CPM with unitary approximate message passing, which is related to signal processing but not specifically to adaptive optics or FSOC.",
+        "Rating": 0.2
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07547v1",
+        "Justification": "This paper presents a method for high-fidelity waveform generation, which could potentially have applications in FSOC but does not directly address adaptive optics or atmospheric turbulence.",
+        "Rating": 0.3
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2211.13479v4",
+        "Justification": "This paper focuses on exponential function reconstruction for biomedical magnetic resonance applications, which is not relevant to adaptive optics or FSOC.",
+        "Rating": 0
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2308.13777v2",
+        "Justification": "This paper discusses self-supervised scalable deep compressed sensing, which could have broad applications in signal processing but does not directly address adaptive optics or FSOC.",
+        "Rating": 0.2
+      }
+    ]
+  },
+  "required": ["items"]
+}

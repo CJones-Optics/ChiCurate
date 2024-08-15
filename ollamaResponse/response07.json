@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "items": [
+      {
+        "ArticleID": "oai:arXiv.org:2408.07282v1",
+        "Justification": "This paper focuses on human activity recognition using wearables, which is not related to Free Space Optical Communication (FSOC) or adaptive optics.",
+        "Rating": 0
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07320v1",
+        "Justification": "This paper deals with Coordinated Spectral Efficiency Prediction for real-world 5G CoMP systems, which is not directly related to FSOC or adaptive optics.",
+        "Rating": 0
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07480v1",
+        "Justification": "This paper discusses Adaptive Basis Function Selection for Computationally Efficient Predictions, which is not specifically relevant to FSOC or adaptive optics.",
+        "Rating": 0
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07592v1",
+        "Justification": "This paper focuses on Multi-periodicity dependency Transformer based on spectrum offset for radio frequency fingerprint identification, which is not related to FSOC or adaptive optics.",
+        "Rating": 0
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07592v1",
+        "Justification": "This paper focuses on Multi-periodicity dependency Transformer based on spectrum offset for radio frequency fingerprint identification, which is not related to FSOC or adaptive optics.",
+        "Rating": 0
+      }
+    ]
+  },
+  "required": ["items"]
+}

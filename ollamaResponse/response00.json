@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "items": [
+      {
+        "ArticleID": "oai:arXiv.org:2408.07126v1",
+        "Justification": "While this article discusses improving radial velocities, it is focused on astronomy and not specifically related to free space optical communication or adaptive optics.",
+        "Rating": 0.3
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07242v1",
+        "Justification": "This article discusses ultraviolet technology for a future space observatory, which is relevant to optical engineering but not specifically focused on free space optical communication or adaptive optics.",
+        "Rating": 0.5
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07134v1",
+        "Justification": "This article is about frequency shift in binary lensing systems, which is not directly related to free space optical communication or adaptive optics.",
+        "Rating": 0.2
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07474v1",
+        "Justification": "This article discusses debiasing astro-photometric observations, which is not directly relevant to free space optical communication or adaptive optics.",
+        "Rating": 0.3
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.06947v2",
+        "Justification": "This article focuses on kilonova light curve parameter estimation, which is not directly relevant to free space optical communication or adaptive optics.",
+        "Rating": 0.3
+      }
+    ]
+  },
+  "required": ["items"]
+}

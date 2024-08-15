@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+.item-box {
+    border: 2px solid #a0c8f0; /* Pale blue border */
+    padding: 15px; /* Space inside the box */
+    margin-bottom: 20px; /* Space below each box */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f5faff; /* Light background color */
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "items": [
+      {
+        "ArticleID": "oai:arXiv.org:2408.07446v1",
+        "Justification": "While this paper discusses photonic crystals, it focuses on atomic doping and nonreciprocal optical properties, which is not directly related to the researcher's interests in adaptive optics, atmospheric turbulence, or laser communication.",
+        "Rating": 0.3
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07487v1",
+        "Justification": "This paper is on optical sensing with multispectral readout but does not directly relate to the researcher's interests in adaptive optics, wavefront sensing and control, or phase control.",
+        "Rating": 0.4
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07672v1",
+        "Justification": "This paper focuses on spatial light modulator calibration and pixel crosstalk optimization, which is relevant to adaptive optics but lacks direct connection to the researcher's specific interests in FSOC and atmospheric turbulence.",
+        "Rating": 0.5
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07085v1",
+        "Justification": "This paper discusses antenna bandwidth and directivity, which is not directly related to the researcher's interests in optical communication or adaptive optics.",
+        "Rating": 0.2
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07187v1",
+        "Justification": "This paper presents a micro-integrated crossed-beam optical dipole trap system for mobile atomic quantum technologies, which is not directly related to the researcher's interests in FSOC or adaptive optics.",
+        "Rating": 0.3
+      }
+    ]
+  },
+  "required": ["items"]
+}

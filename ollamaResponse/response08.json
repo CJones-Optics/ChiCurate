@@ -1,0 +1,34 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "items": [
+      {
+        "ArticleID": "oai:arXiv.org:2408.07626v1",
+        "Justification": "The article is focused on communication in bacterial biofilm, which is not relevant to Free Space Optical Communication (FSOC) or adaptive optics.",
+        "Rating": 0
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07692v1",
+        "Justification": "While this article discusses neural networks for communication systems, it does not specifically relate to FSOC or adaptive optics.",
+        "Rating": 0.3
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07099v1",
+        "Justification": "This article is about fault diagnosis in mechanical systems, not related to FSOC or adaptive optics.",
+        "Rating": 0
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07157v1",
+        "Justification": "Object tracking using Kalman filters is not directly relevant to FSOC or adaptive optics.",
+        "Rating": 0.2
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07247v1",
+        "Justification": "This article is about wireless signal modulation classification, not related to optical communication or adaptive optics.",
+        "Rating": 0
+      }
+    ]
+  },
+  "required": ["items"]
+}
