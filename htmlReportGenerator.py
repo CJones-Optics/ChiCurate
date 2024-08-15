@@ -56,14 +56,12 @@ if __name__=="__main__":
     </head>
 """
 
-    html_report += "<main> <h1>Today's ArXiv Report</h1>"
     for index, item in enumerate(items):
         html_report += f"<div class='item-box'>"
         html_report += f"<h2>{index+1}. {item['title']}</h2>"
         html_report += f"<p><strong>Abstract: </strong>{item['abstract']}</p>"
-        html_report += f"<a href='{item['link']}'>Read More</a>"
-        html_report += f" -------- "
-        html_report += f"<a href='{item['pdf']}'> PDF</a>"
+        html_report += f"<a href='{item['link']}' class='button'>Read More</a>"
+        html_report += f"<a href='{item['pdf']}' class='button'>PDF</a>"
         html_report += f"<p><strong>Rating: </strong>{item['Rating']}</p>"
         html_report += f"<p><strong>Justification: </strong>{item['Justification']}</p>"
         html_report += f"</div>"
