@@ -2,33 +2,36 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "items": [
-      {
-        "ArticleID": "oai:arXiv.org:2408.07282v1",
-        "Justification": "This paper focuses on human activity recognition using wearables, which is not related to Free Space Optical Communication (FSOC) or adaptive optics.",
-        "Rating": 0
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07320v1",
-        "Justification": "This paper deals with Coordinated Spectral Efficiency Prediction for real-world 5G CoMP systems, which is not directly related to FSOC or adaptive optics.",
-        "Rating": 0
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07480v1",
-        "Justification": "This paper discusses Adaptive Basis Function Selection for Computationally Efficient Predictions, which is not specifically relevant to FSOC or adaptive optics.",
-        "Rating": 0
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07592v1",
-        "Justification": "This paper focuses on Multi-periodicity dependency Transformer based on spectrum offset for radio frequency fingerprint identification, which is not related to FSOC or adaptive optics.",
-        "Rating": 0
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07592v1",
-        "Justification": "This paper focuses on Multi-periodicity dependency Transformer based on spectrum offset for radio frequency fingerprint identification, which is not related to FSOC or adaptive optics.",
-        "Rating": 0
-      }
-    ]
+    "items": {
+      "type": "array",
+      "items": [
+        {
+          "ArticleID": "oai:arXiv.org:2408.08065v1",
+          "Justification": "This article is about EEG data preprocessing for self-supervised learning, which is not related to Free Space Optical Communication (FSOC) or the researcher's interests.",
+          "Rating": 0
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.08096v1",
+          "Justification": "This article discusses Reconfigurable Intelligent Surfaces (RIS)-aided bistatic radar for rapid non-line-of-sight sensing in the terahertz band, which is not directly related to FSOC or adaptive optics.",
+          "Rating": 0.3
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.08112v1",
+          "Justification": "This article focuses on the spectral efficiency of movable and rotary access points under Rician fading, which is related to wireless communication but not specifically FSOC or adaptive optics.",
+          "Rating": 0.4
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.08186v1",
+          "Justification": "This article presents an online machine learning-based joint channel estimation and MIMO decoding for dynamic channels, which is related to communication systems but not directly relevant to FSOC or adaptive optics.",
+          "Rating": 0.5
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.07734v1",
+          "Justification": "This article introduces an analog spiking neuron in CMOS 28 nm for large-scale neuromorphic processors, which is not related to FSOC, adaptive optics, or optical communication.",
+          "Rating": 0
+        }
+      ]
+    }
   },
   "required": ["items"]
 }

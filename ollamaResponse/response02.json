@@ -2,33 +2,36 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "items": [
-      {
-        "ArticleID": "oai:arXiv.org:2408.07306v1",
-        "Justification": "While attosecond optical pulses are fascinating, they do not directly relate to adaptive optics or atmospheric turbulence in FSOC.",
-        "Rating": 0.2
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07323v1",
-        "Justification": "This article focuses on Floquet topological systems, which is not directly related to photonic lanterns or laser communication in FSOC.",
-        "Rating": 0.2
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07347v1",
-        "Justification": "While this article deals with valley photonic crystals, it does not discuss adaptive optics or wavefront sensing and control relevant to FSOC.",
-        "Rating": 0.3
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07348v1",
-        "Justification": "This article focuses on photon momentum transfer and acceleration sensing, which is not directly relevant to FSOC systems.",
-        "Rating": 0.2
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07354v1",
-        "Justification": "This article presents a fiber optic optofluidic sensor using an open Fabry-Perot interferometer, which is not directly related to adaptive optics or atmospheric turbulence in FSOC.",
-        "Rating": 0.3
-      }
-    ]
+    "items": {
+      "type": "array",
+      "items": [
+        {
+          "ArticleID": "oai:arXiv.org:2405.18158v2",
+          "Justification": "This article focuses on gravitational waveform modeling and the Hubble constant, which is not directly related to Free Space Optical Communication (FSOC), Adaptive Optics, or other topics of interest.",
+          "Rating": 0
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.05296v3",
+          "Justification": "While this article involves multiwavelength catalogues and surveys, it does not relate to FSOC or the specific interests mentioned (Adaptive Optics, optical communication, etc.).",
+          "Rating": 0
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.06973v2",
+          "Justification": "This article studies scattered light emission from a debris disk, which is not directly relevant to FSOC or the listed interests.",
+          "Rating": 0
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.07929v1",
+          "Justification": "Though this article discusses algorithms for surface density of states in topological systems, it does not specifically relate to FSOC or the mentioned interests.",
+          "Rating": 0
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.08039v1",
+          "Justification": "This article focuses on optimized waveguides for mid-infrared lab-on-chip systems, which is somewhat related to photonics but not directly relevant to FSOC or the specific interests mentioned.",
+          "Rating": 0.2
+        }
+      ]
+    }
   },
   "required": ["items"]
 }

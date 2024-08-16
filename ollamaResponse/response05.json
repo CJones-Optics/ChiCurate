@@ -4,29 +4,29 @@
   "properties": {
     "items": [
       {
-        "ArticleID": "oai:arXiv.org:2407.14927v2",
-        "Justification": "Does not relate to adaptive optics, optical communication, or atmospheric turbulence.",
+        "ArticleID": "oai:arXiv.org:2403.19301v2",
+        "Justification": "While this paper discusses speckle metrology, it is not directly related to adaptive optics, wavefront sensing, or FSOC.",
         "Rating": 0.3
       },
       {
-        "ArticleID": "oai:arXiv.org:2408.06771v2",
-        "Justification": "While it involves wave phenomena, it is not directly related to adaptive optics or optical communication systems.",
-        "Rating": 0.5
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.06861v2",
-        "Justification": "Focuses on the chaotic behavior of frequency combs, not directly relevant to adaptive optics or atmospheric turbulence monitoring.",
-        "Rating": 0.4
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2308.00612v2",
-        "Justification": "Deals with theoretical physics concepts unrelated to practical aspects of optical engineering, free space optics, or laser communication.",
+        "ArticleID": "oai:arXiv.org:2404.15102v4",
+        "Justification": "This paper focuses on optical trapping and inverse design of nanocavities, which is not directly relevant to FSOC or adaptive optics.",
         "Rating": 0.2
       },
       {
-        "ArticleID": "oai:arXiv.org:2401.00723v2",
-        "Justification": "The concept of a twisted wavefront is relevant to adaptive optics and wavefront sensing, thus potentially interesting for the researcher.",
-        "Rating": 0.8
+        "ArticleID": "oai:arXiv.org:2406.09729v2",
+        "Justification": "This paper discusses chiral metasurfaces, which is not directly related to FSOC or adaptive optics, though it might be interesting for general optical research.",
+        "Rating": 0.4
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.01761v2",
+        "Justification": "This paper focuses on the fabrication and characterization of optical micro/nanofibers, which is somewhat related to FSOC but not directly to adaptive optics or wavefront sensing.",
+        "Rating": 0.5
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2312.05641v2",
+        "Justification": "This paper discusses correlations between photons and phonons, which is not directly related to FSOC or adaptive optics.",
+        "Rating": 0.2
       }
     ]
   },

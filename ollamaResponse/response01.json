@@ -4,29 +4,29 @@
   "properties": {
     "items": [
       {
-        "ArticleID": "oai:arXiv.org:2408.07076v1",
-        "Justification": "While this paper discusses high-quality optical resonators, it does not directly relate to adaptive optics or free space optical communication.",
+        "ArticleID": "oai:arXiv.org:2408.08180v1",
+        "Justification": "While this paper discusses guide stars for Thirty Meter Telescope operations, it does not directly relate to Free Space Optical Communication (FSOC), adaptive optics, or atmospheric turbulence monitoring.",
         "Rating": 0.3
       },
       {
-        "ArticleID": "oai:arXiv.org:2408.07108v1",
-        "Justification": "This paper is about machine learning and does not relate to the optical engineering or communication aspects you're interested in.",
-        "Rating": 0.1
+        "ArticleID": "oai:arXiv.org:2408.07859v1",
+        "Justification": "This paper is about citizen science data release for variable star classification and does not relate to FSOC, adaptive optics, or optical communication technologies.",
+        "Rating": 0
       },
       {
-        "ArticleID": "oai:arXiv.org:2408.07140v1",
-        "Justification": "This paper focuses on nanoscale metal alloy particles and does not relate to adaptive optics, optical communication, or wavefront sensing.",
-        "Rating": 0.1
+        "ArticleID": "oai:arXiv.org:2207.14242v2",
+        "Justification": "This paper focuses on cryogenic performance of superconducting detectors and is not directly relevant to FSOC, adaptive optics, or wavefront sensing.",
+        "Rating": 0
       },
       {
-        "ArticleID": "oai:arXiv.org:2408.07267v1",
-        "Justification": "This paper discusses photonic topological Anderson insulators, which is not directly relevant to your interests in adaptive optics and optical communication.",
-        "Rating": 0.2
+        "ArticleID": "oai:arXiv.org:2402.18645v2",
+        "Justification": "This paper presents the conceptual design of a large submillimeter telescope but does not discuss FSOC, adaptive optics, or atmospheric turbulence monitoring.",
+        "Rating": 0.3
       },
       {
-        "ArticleID": "oai:arXiv.org:2408.07301v1",
-        "Justification": "This paper focuses on particle rotation driven by cylindrical polarization, which is not directly related to your research interests in FSOC and adaptive optics.",
-        "Rating": 0.2
+        "ArticleID": "oai:arXiv.org:2403.03821v5",
+        "Justification": "This paper focuses on identifying black holes using space telescopes and deep learning, which is not directly relevant to FSOC, adaptive optics, or phase control in laser communication.",
+        "Rating": 0
       }
     ]
   },

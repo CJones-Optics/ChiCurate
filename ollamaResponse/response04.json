@@ -6,29 +6,29 @@
       "type": "array",
       "items": [
         {
-          "ArticleID": "oai:arXiv.org:2408.07197v1",
-          "Justification": "Does not focus on optical communication or adaptive optics; instead, it explores hybrid magnonics with localized spoof surface plasmon polaritons.",
-          "Rating": 0.2
-        },
-        {
-          "ArticleID": "oai:arXiv.org:2408.07211v1",
-          "Justification": "Primarily concerned with WDM systems; while it touches on optical communication, it lacks direct relevance to adaptive optics or atmospheric turbulence monitoring.",
+          "ArticleID": "oai:arXiv.org:2408.08257v1",
+          "Justification": "While this paper discusses high Q micro-resonators, it's primarily focused on single-atom Cavity-QED, which is not directly relevant to FSOC or adaptive optics.",
           "Rating": 0.3
         },
         {
-          "ArticleID": "oai:arXiv.org:2408.07577v1",
-          "Justification": "Focuses on squeezed states of light and high-harmonic generation, which is not directly relevant to the researcher's interests in adaptive optics or FSOC communication.",
+          "ArticleID": "oai:arXiv.org:2408.08271v1",
+          "Justification": "This paper on non-linear low symmetry photonic crystal structures is not directly related to FSOC, adaptive optics, or atmospheric turbulence.",
           "Rating": 0.2
         },
         {
-          "ArticleID": "oai:arXiv.org:2303.10932v4",
-          "Justification": "While it involves light and chirality, this article is more suited for researchers in topological photonics rather than those focused on adaptive optics or FSOC communication.",
+          "ArticleID": "oai:arXiv.org:2408.07799v1",
+          "Justification": "This paper on spin-of-light gyroscope is not directly related to FSOC or adaptive optics, but it does involve wavefront manipulation which might be tangentially relevant.",
           "Rating": 0.4
         },
         {
-          "ArticleID": "oai:arXiv.org:2312.14393v2",
-          "Justification": "Deals with Anderson localization of light in disordered systems, which has some relevance to atmospheric turbulence monitoring but lacks direct focus on adaptive optics or FSOC communication.",
-          "Rating": 0.5
+          "ArticleID": "oai:arXiv.org:2408.07958v1",
+          "Justification": "This paper on molecular dynamics is not related to FSOC or adaptive optics and doesn't involve any optical components.",
+          "Rating": 0.1
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.08311v1",
+          "Justification": "This paper on excitons is related to quantum optics, but it doesn't directly relate to FSOC or adaptive optics and wavefront sensing.",
+          "Rating": 0.2
         }
       ]
     }

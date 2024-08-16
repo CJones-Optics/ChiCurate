@@ -4,28 +4,28 @@
   "properties": {
     "items": [
       {
-        "ArticleID": "oai:arXiv.org:2408.07626v1",
-        "Justification": "The article is focused on communication in bacterial biofilm, which is not relevant to Free Space Optical Communication (FSOC) or adaptive optics.",
+        "ArticleID": "oai:arXiv.org:2408.07925v1",
+        "Justification": "The article is about neonatal sleep-wake classification, which is not related to optical engineering or free space optical communication.",
         "Rating": 0
       },
       {
-        "ArticleID": "oai:arXiv.org:2408.07692v1",
-        "Justification": "While this article discusses neural networks for communication systems, it does not specifically relate to FSOC or adaptive optics.",
+        "ArticleID": "oai:arXiv.org:2408.08019v1",
+        "Justification": "While this paper discusses waveform generation optimization, it does not specifically relate to adaptive optics, atmospheric turbulence, or laser communication.",
         "Rating": 0.3
       },
       {
-        "ArticleID": "oai:arXiv.org:2408.07099v1",
-        "Justification": "This article is about fault diagnosis in mechanical systems, not related to FSOC or adaptive optics.",
+        "ArticleID": "oai:arXiv.org:2408.08040v1",
+        "Justification": "The inverse obstacle problem is not directly applicable to optical engineering or free space optical communication.",
         "Rating": 0
       },
       {
-        "ArticleID": "oai:arXiv.org:2408.07157v1",
-        "Justification": "Object tracking using Kalman filters is not directly relevant to FSOC or adaptive optics.",
-        "Rating": 0.2
+        "ArticleID": "oai:arXiv.org:2408.08074v1",
+        "Justification": "This survey on integrated sensing, communication, and computation has some overlap with the researcher's interests in optical communication, but it lacks specific details on adaptive optics or atmospheric turbulence.",
+        "Rating": 0.5
       },
       {
-        "ArticleID": "oai:arXiv.org:2408.07247v1",
-        "Justification": "This article is about wireless signal modulation classification, not related to optical communication or adaptive optics.",
+        "ArticleID": "oai:arXiv.org:2408.08132v1",
+        "Justification": "The focus on heterogeneous system design for cell-free massive MIMO in wideband communications is not directly related to adaptive optics, atmospheric turbulence, or laser communication.",
         "Rating": 0
       }
     ]

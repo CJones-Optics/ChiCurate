@@ -1,33 +1,52 @@
+/* CSS Variables */
+:root {
+    --body-bg-color: #24273a;
+    --font-color: #cad3f5;
+    --item-box-border-color: #c6a0f6;
+    --item-box-bg-color: #363a4f;
+    --button-bg-color: #b7bdf8;
+    --button-hover-bg-color: #c6a0f6;
+    --button-text-color: #181926;
+    --rating-bar-bg-color: #1e2030;
+    --rating-bar-filled-color: #a6da95;
+}
+
 body {
+    background-color: var(--body-bg-color);
+    color: var(--font-color);
     font-family: Arial, sans-serif;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     line-height: 1.6;
 }
+
 .item-box {
-    border: 2px solid #a0c8f0; /* Pale blue border */
+    border: 2px solid var(--item-box-border-color); /* Pale blue border */
     padding: 15px; /* Space inside the box */
     margin-bottom: 20px; /* Space below each box */
     border-radius: 8px; /* Rounded corners */
-    background-color: #f5faff; /* Light background color */
+    background-color: var(--item-box-bg-color); /* Light background color */
 }
+
 .button {
     display: inline-block;
     padding: 10px 15px;
     margin: 5px;
-    background-color: #007bff;
-    color: white;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
+
 .button:hover {
-    background-color: #0056b3;
+    background-color: var(--button-hover-bg-color);
 }
+
 .rating-bar-container {
     width: 100%;
-    background-color: #e0e0e0; /* Light grey background */
+    background-color: var(--rating-bar-bg-color); /* Light grey background */
     border-radius: 5px; /* Rounded corners */
     overflow: hidden;
     height: 20px; /* Fixed height for the bar */
@@ -36,7 +55,9 @@ body {
 
 .rating-bar {
     height: 100%;
-    background-color: #4caf50; /* Green color for the filled part */
+    background-color: var(
+        --rating-bar-filled-color
+    ); /* Green color for the filled part */
     width: 0%; /* Initial width */
     transition: width 0.3s ease; /* Smooth transition */
 }

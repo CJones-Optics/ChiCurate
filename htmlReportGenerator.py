@@ -5,7 +5,16 @@ import pandas as pd
 import html
 
 
-style = """
+stylePath = "style.css"
+style = ""
+with open(stylePath, 'r') as f:
+    s = f.read()
+    style = s
+
+# print(style)
+
+
+"""
 /* CSS Variables */
 :root {
     --body-bg-color: #24273a;

@@ -2,33 +2,36 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "items": [
-      {
-        "ArticleID": "oai:arXiv.org:2408.07126v1",
-        "Justification": "While this article discusses improving radial velocities, it is focused on astronomy and not specifically related to free space optical communication or adaptive optics.",
-        "Rating": 0.3
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07242v1",
-        "Justification": "This article discusses ultraviolet technology for a future space observatory, which is relevant to optical engineering but not specifically focused on free space optical communication or adaptive optics.",
-        "Rating": 0.5
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07134v1",
-        "Justification": "This article is about frequency shift in binary lensing systems, which is not directly related to free space optical communication or adaptive optics.",
-        "Rating": 0.2
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.07474v1",
-        "Justification": "This article discusses debiasing astro-photometric observations, which is not directly relevant to free space optical communication or adaptive optics.",
-        "Rating": 0.3
-      },
-      {
-        "ArticleID": "oai:arXiv.org:2408.06947v2",
-        "Justification": "This article focuses on kilonova light curve parameter estimation, which is not directly relevant to free space optical communication or adaptive optics.",
-        "Rating": 0.3
-      }
-    ]
+    "items": {
+      "type": "array",
+      "items": [
+        {
+          "ArticleID": "oai:arXiv.org:2408.07722v1",
+          "Justification": "This paper is about exoplanet detection and characterisation using JWST, which is not directly related to Free Space Optical Communication (FSOC) or the researcher's interests.",
+          "Rating": 0
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.07723v1",
+          "Justification": "This paper focuses on high mass transiting exoplanets and brown dwarfs, which is not relevant to FSOC or the researcher's interests.",
+          "Rating": 0
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.07735v1",
+          "Justification": "This paper presents an experimental demonstration of photonic phase correctors, which is directly relevant to the researcher's interests in adaptive optics and wavefront sensing.",
+          "Rating": 1
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.07961v1",
+          "Justification": "This paper investigates light scrambling and focal ratio degradation of thin multimode fibers, which is tangentially related to FSOC but not a core interest for the researcher.",
+          "Rating": 0.5
+        },
+        {
+          "ArticleID": "oai:arXiv.org:2408.08173v1",
+          "Justification": "This paper demonstrates an ultra-fast intensity interferometry instrument using hybrid single photon counting detectors, which is somewhat related to FSOC but not a primary interest for the researcher.",
+          "Rating": 0.6
+        }
+      ]
+    }
   },
   "required": ["items"]
 }
