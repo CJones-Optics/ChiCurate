@@ -32,7 +32,7 @@ def main():
     with open(stylePath, 'r') as f:
         style = f.read()
     # Read the list of items in ofInterest.json
-    items = load_articles_from_json('./ratedArticles.json')
+    items = load_articles_from_json('./data/ratedArticles.json')
     # Create an HTML report of the items
     html_report =f"""
     <!DOCTYPE html>
