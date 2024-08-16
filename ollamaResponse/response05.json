@@ -5,27 +5,27 @@
     "items": [
       {
         "ArticleID": "oai:arXiv.org:2403.19301v2",
-        "Justification": "While this paper discusses speckle metrology, it is not directly related to adaptive optics, wavefront sensing, or FSOC.",
+        "Justification": "While this paper discusses speckle metrology, it is not directly related to adaptive optics or free space optical communication.",
         "Rating": 0.3
       },
       {
         "ArticleID": "oai:arXiv.org:2404.15102v4",
-        "Justification": "This paper focuses on optical trapping and inverse design of nanocavities, which is not directly relevant to FSOC or adaptive optics.",
+        "Justification": "This paper focuses on optical trapping and inverse design of nanocavities, which is not directly relevant to the researcher's interests in adaptive optics or FSOC.",
         "Rating": 0.2
       },
       {
         "ArticleID": "oai:arXiv.org:2406.09729v2",
-        "Justification": "This paper discusses chiral metasurfaces, which is not directly related to FSOC or adaptive optics, though it might be interesting for general optical research.",
-        "Rating": 0.4
+        "Justification": "This paper deals with chiral metasurfaces, which is not directly related to the researcher's interests in adaptive optics or FSOC.",
+        "Rating": 0.3
       },
       {
         "ArticleID": "oai:arXiv.org:2408.01761v2",
-        "Justification": "This paper focuses on the fabrication and characterization of optical micro/nanofibers, which is somewhat related to FSOC but not directly to adaptive optics or wavefront sensing.",
-        "Rating": 0.5
+        "Justification": "Fabrication and characterization of optical micro/nanofibers is related to optics but not directly relevant to adaptive optics or FSOC.",
+        "Rating": 0.35
       },
       {
         "ArticleID": "oai:arXiv.org:2312.05641v2",
-        "Justification": "This paper discusses correlations between photons and phonons, which is not directly related to FSOC or adaptive optics.",
+        "Justification": "This paper discusses non-classical correlations between photons and phonons, which is not directly relevant to adaptive optics or FSOC.",
         "Rating": 0.2
       }
     ]

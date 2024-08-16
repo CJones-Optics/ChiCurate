@@ -7,27 +7,27 @@
       "items": [
         {
           "ArticleID": "oai:arXiv.org:2408.08162v1",
-          "Justification": "While this paper discusses resonant states and perturbations, it is not directly related to optical communication, adaptive optics, or atmospheric turbulence monitoring.",
+          "Justification": "While this paper involves perturbation theory, it does not directly relate to Free Space Optical Communication (FSOC), adaptive optics, or atmospheric turbulence.",
           "Rating": 0.3
         },
         {
           "ArticleID": "oai:arXiv.org:2408.08176v1",
-          "Justification": "This paper focuses on moving Fabry-Perot systems which is not directly relevant to FSOC or adaptive optics.",
-          "Rating": 0.3
+          "Justification": "This paper discusses moving Fabry-Perot interferometers, but it does not appear to relate to FSOC or adaptive optics in a meaningful way.",
+          "Rating": 0.35
         },
         {
           "ArticleID": "oai:arXiv.org:2408.08204v1",
-          "Justification": "This paper deals with emergent thermodynamics in laser cooling, which is not directly relevant to the primary interests of FSOC and adaptive optics.",
+          "Justification": "This paper involves light beam cooling, but it does not directly relate to FSOC or adaptive optics systems.",
           "Rating": 0.3
         },
         {
           "ArticleID": "oai:arXiv.org:2408.08213v1",
-          "Justification": "While this paper discusses laser pulses and quantum dots, it is not directly related to FSOC, adaptive optics, or atmospheric turbulence monitoring.",
-          "Rating": 0.5
+          "Justification": "While this paper involves quantum dots and electro-optic modulation, it does not appear to have a direct relevance to FSOC or adaptive optics.",
+          "Rating": 0.35
         },
         {
           "ArticleID": "oai:arXiv.org:2408.08253v1",
-          "Justification": "This paper focuses on all-optical azimuthal trapping of dissipative Kerr multi-solitons, which is not directly relevant to FSOC or adaptive optics.",
+          "Justification": "This paper discusses all-optical azimuthal trapping of dissipative Kerr multi-solitons, but it does not directly relate to FSOC or adaptive optics systems.",
           "Rating": 0.3
         }
       ]

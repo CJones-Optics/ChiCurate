@@ -5,27 +5,27 @@
     "items": [
       {
         "ArticleID": "oai:arXiv.org:2408.08180v1",
-        "Justification": "While this paper discusses guide stars for Thirty Meter Telescope operations, it does not directly relate to Free Space Optical Communication (FSOC), adaptive optics, or atmospheric turbulence monitoring.",
+        "Justification": "The article focuses on guide star catalog forThirty Meter Telescope operations, which is related to astronomy but not directly relevant to FSOC adaptive optics or atmospheric turbulence.",
         "Rating": 0.3
       },
       {
         "ArticleID": "oai:arXiv.org:2408.07859v1",
-        "Justification": "This paper is about citizen science data release for variable star classification and does not relate to FSOC, adaptive optics, or optical communication technologies.",
+        "Justification": "This article is about citizen science data release for variable star classification, which is not related to FSOC adaptive optics or atmospheric turbulence.",
         "Rating": 0
       },
       {
         "ArticleID": "oai:arXiv.org:2207.14242v2",
-        "Justification": "This paper focuses on cryogenic performance of superconducting detectors and is not directly relevant to FSOC, adaptive optics, or wavefront sensing.",
+        "Justification": "The article deals with cryogenic performance of superconducting detectors, which is not directly related to FSOC adaptive optics or atmospheric turbulence.",
         "Rating": 0
       },
       {
         "ArticleID": "oai:arXiv.org:2402.18645v2",
-        "Justification": "This paper presents the conceptual design of a large submillimeter telescope but does not discuss FSOC, adaptive optics, or atmospheric turbulence monitoring.",
-        "Rating": 0.3
+        "Justification": "This article presents the conceptual design of a large-aperture submillimeter telescope, which is not directly relevant to FSOC adaptive optics or atmospheric turbulence.",
+        "Rating": 0.2
       },
       {
         "ArticleID": "oai:arXiv.org:2403.03821v5",
-        "Justification": "This paper focuses on identifying black holes using space telescopes and deep learning, which is not directly relevant to FSOC, adaptive optics, or phase control in laser communication.",
+        "Justification": "The article discusses identifying black holes using space telescopes and deep learning, which is not related to FSOC adaptive optics or atmospheric turbulence.",
         "Rating": 0
       }
     ]

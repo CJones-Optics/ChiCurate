@@ -2,36 +2,33 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "items": {
-      "type": "array",
-      "items": [
-        {
-          "ArticleID": "oai:arXiv.org:2408.08257v1",
-          "Justification": "While this paper discusses high Q micro-resonators, it's primarily focused on single-atom Cavity-QED, which is not directly relevant to FSOC or adaptive optics.",
-          "Rating": 0.3
-        },
-        {
-          "ArticleID": "oai:arXiv.org:2408.08271v1",
-          "Justification": "This paper on non-linear low symmetry photonic crystal structures is not directly related to FSOC, adaptive optics, or atmospheric turbulence.",
-          "Rating": 0.2
-        },
-        {
-          "ArticleID": "oai:arXiv.org:2408.07799v1",
-          "Justification": "This paper on spin-of-light gyroscope is not directly related to FSOC or adaptive optics, but it does involve wavefront manipulation which might be tangentially relevant.",
-          "Rating": 0.4
-        },
-        {
-          "ArticleID": "oai:arXiv.org:2408.07958v1",
-          "Justification": "This paper on molecular dynamics is not related to FSOC or adaptive optics and doesn't involve any optical components.",
-          "Rating": 0.1
-        },
-        {
-          "ArticleID": "oai:arXiv.org:2408.08311v1",
-          "Justification": "This paper on excitons is related to quantum optics, but it doesn't directly relate to FSOC or adaptive optics and wavefront sensing.",
-          "Rating": 0.2
-        }
-      ]
-    }
+    "items": [
+      {
+        "ArticleID": "oai:arXiv.org:2408.08257v1",
+        "Justification": "While this paper discusses high-Q micro-resonators, it is focused on single-atom Cavity-QED rather than free-space optical communication or adaptive optics.",
+        "Rating": 0.3
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.08271v1",
+        "Justification": "This paper is about non-linear low symmetry photonic crystal structures, which might be tangentially relevant to FSOC but does not directly address atmospheric turbulence or adaptive optics.",
+        "Rating": 0.5
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07799v1",
+        "Justification": "This paper is about a spin-of-light gyroscope and does not directly relate to optical communication, adaptive optics, or atmospheric turbulence.",
+        "Rating": 0.2
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.07958v1",
+        "Justification": "This paper focuses on molecular dynamics and does not relate to free-space optical communication or adaptive optics.",
+        "Rating": 0.2
+      },
+      {
+        "ArticleID": "oai:arXiv.org:2408.08311v1",
+        "Justification": "This paper discusses gauge-invariant optical selection rules for excitons, which is not directly relevant to FSOC, adaptive optics, or atmospheric turbulence.",
+        "Rating": 0.2
+      }
+    ]
   },
   "required": ["items"]
 }

@@ -7,28 +7,28 @@
       "items": [
         {
           "ArticleID": "oai:arXiv.org:2405.18158v2",
-          "Justification": "This article focuses on gravitational waveform modeling and the Hubble constant, which is not directly related to Free Space Optical Communication (FSOC), Adaptive Optics, or other topics of interest.",
+          "Justification": "Not directly related to FSOC, adaptive optics, or optical communication systems.",
           "Rating": 0
         },
         {
           "ArticleID": "oai:arXiv.org:2408.05296v3",
-          "Justification": "While this article involves multiwavelength catalogues and surveys, it does not relate to FSOC or the specific interests mentioned (Adaptive Optics, optical communication, etc.).",
-          "Rating": 0
+          "Justification": "Primarily focused on astronomy and cosmic surveys; not directly relevant to FSOC or adaptive optics.",
+          "Rating": 0.1
         },
         {
           "ArticleID": "oai:arXiv.org:2408.06973v2",
-          "Justification": "This article studies scattered light emission from a debris disk, which is not directly relevant to FSOC or the listed interests.",
-          "Rating": 0
+          "Justification": "Deals with debris disks around stars, not directly related to wavefront sensing or FSOC systems.",
+          "Rating": 0.1
         },
         {
           "ArticleID": "oai:arXiv.org:2408.07929v1",
-          "Justification": "Though this article discusses algorithms for surface density of states in topological systems, it does not specifically relate to FSOC or the mentioned interests.",
-          "Rating": 0
+          "Justification": "Focuses on topological photonic systems; while related to photonics, it's not directly relevant to FSOC or adaptive optics.",
+          "Rating": 0.2
         },
         {
           "ArticleID": "oai:arXiv.org:2408.08039v1",
-          "Justification": "This article focuses on optimized waveguides for mid-infrared lab-on-chip systems, which is somewhat related to photonics but not directly relevant to FSOC or the specific interests mentioned.",
-          "Rating": 0.2
+          "Justification": "Directly related to mid-infrared waveguides and lab-on-chip systems, which are relevant to FSOC research.",
+          "Rating": 0.7
         }
       ]
     }

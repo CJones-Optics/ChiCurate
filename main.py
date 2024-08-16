@@ -3,8 +3,6 @@ import json
 from parseFeed import parse_rss_feed_DF
 import pandas as pd
 
-
-
 if __name__ == "__main__":
     # create empty DF
     df = pd.DataFrame()
@@ -19,9 +17,3 @@ if __name__ == "__main__":
 
     # dump the id,title and abstract to json, one line per entry
     df[['id', 'title','abstract']].to_json('./todays.json', orient='records', lines=True)
-
-    # ollamaCall.py
-    # parseOutputs.py
-    # htmlReportGenerator.py
-
-    # Shuffle the rows

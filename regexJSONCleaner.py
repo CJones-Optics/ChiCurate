@@ -2,15 +2,21 @@ import re
 import json
 
 def extract_and_clean_json(input_string):
+    """
+    Runs some regex to conver the possibly malformed JSON-like
+    objects in the input string to valid JSON objects.
+    Args:
+        input_string (str): The input string containing JSON-like objects.
+    Returns:
+        list: A list of dictionaries, where each dictionary represents an item.
+    """
     # Regular expression to match the desired JSON-like objects
     pattern = r'\{\s*"ArticleID"\s*:\s*"[^"]*"\s*,\s*"Justification"\s*:\s*"[^"]*"\s*,\s*"Rating"\s*:\s*\d+(?:\.\d+)?\s*\}'
-
     # Find all matches in the input string
     matches = re.findall(pattern, input_string)
 
     # List to store the cleaned items
     cleaned_items = []
-
     for match in matches:
         try:
             # Try to parse the match as JSON
@@ -26,39 +32,8 @@ def extract_and_clean_json(input_string):
             except json.JSONDecodeError:
                 # If it still fails, skip this item
                 continue
-
     return cleaned_items
 
 # Function to convert the result to a string
 def result_to_string(items):
     return json.dumps(items, indent=2)
-
-
-# input_string = """
-# Some text before
-#       {
-#         "ArticleID": "oai:arXiv.org:2404.08725v2",
-#         "Justification": "Not directly related to optical engineering or FSOC; focuses on data protection for Super-Kamiokande detector.",
-#         "Rating": 0.1
-#       },
-#       {
-#         "ArticleID": "oai:arXiv.org:2404.08747v2",
-#         "Justification": "Firectly related to optical engineering and FSOC; focuses on data protection for Super-Kamiokande detector.",
-#         "Rating": 0.8
-#       },
-#       {
-#         'ArticleID': "oai:arXiv.org:2404.08726v1",
-#         'Justification': 'Another example with single quotes',
-#         'Rating': 0.5
-#       }
-# Some text after
-# """
-
-# # Extract and clean the JSON items
-# cleaned_items = extract_and_clean_json(input_string)
-
-# # Convert the result to a string
-
-# result_string = result_to_string(cleaned_items)
-
-# print(result_string)
