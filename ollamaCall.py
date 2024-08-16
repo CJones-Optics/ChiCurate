@@ -2,6 +2,7 @@ import ollama
 import json
 from RAGLoader import getTodaysTitles
 import yaml
+import os
 
 def constructUserPrompt(prompt, data):
     outputStr = prompt + "\n"
@@ -33,6 +34,10 @@ def main():
 
         # This is the part which calls the LLM
         response = ollama.chat(model=model,messages=messages)
+
+        # Check if ./data/ollamaResponse exists and create it if it doesn't
+        if not os.path.exists('./data/ollamaResponse'):
+            os.makedirs('./data/ollamaResponse')
 
         # Save the response to text file
         with open(f'./data/ollamaResponse/response{i:02d}.json', 'w') as f:
