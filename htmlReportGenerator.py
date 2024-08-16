@@ -5,6 +5,72 @@ import pandas as pd
 import html
 
 
+style = """
+/* CSS Variables */
+:root {
+    --body-bg-color: #24273a;
+    --font-color: #cad3f5;
+    --item-box-border-color: #c6a0f6;
+    --item-box-bg-color: #363a4f;
+    --button-bg-color: #b7bdf8;
+    --button-hover-bg-color: #c6a0f6;
+    --button-text-color: #181926;
+    --rating-bar-bg-color: #1e2030;
+    --rating-bar-filled-color: #a6da95;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--font-color);
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.item-box {
+    border: 2px solid var(--item-box-border-color); /* Pale blue border */
+    padding: 15px; /* Space inside the box */
+    margin-bottom: 20px; /* Space below each box */
+    border-radius: 8px; /* Rounded corners */
+    background-color: var(--item-box-bg-color); /* Light background color */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+.rating-bar-container {
+    width: 100%;
+    background-color: var(--rating-bar-bg-color); /* Light grey background */
+    border-radius: 5px; /* Rounded corners */
+    overflow: hidden;
+    height: 20px; /* Fixed height for the bar */
+    margin-bottom: 10px; /* Space below the bar */
+}
+
+.rating-bar {
+    height: 100%;
+    background-color: var(
+        --rating-bar-filled-color
+    ); /* Green color for the filled part */
+    width: 0%; /* Initial width */
+    transition: width 0.3s ease; /* Smooth transition */
+}
+"""
+
 def load_articles_from_json(file_path):
     """
     Load articles from a JSON file and return them as a list of dictionaries.
@@ -44,7 +110,7 @@ if __name__=="__main__":
 
     # Create an HTML report of the items
     # html_report = "<html><head><title>Daily ArXive Report</title></head><body>"
-    html_report ="""
+    html_report =f"""
     <!DOCTYPE html>
     <html lang="en">
 
@@ -52,7 +118,11 @@ if __name__=="__main__":
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Daily ArXiv Roundup</title>
-        <link rel="stylesheet" href="style.css">
+
+        <style>
+        {style}
+        </style>
+
     </head>
 """
 
