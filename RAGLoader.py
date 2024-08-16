@@ -32,7 +32,7 @@ def getTodaysArticles(path):
         df: A dataframe of articles
     """
     df = pd.DataFrame()
-    with open('./feeds.csv', 'r') as file:
+    with open('./userData/feeds.csv', 'r') as file:
         reader = csv.reader(file)
         for row in reader:
             items = parse_rss_feed_DF(row[0])

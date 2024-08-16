@@ -39,19 +39,19 @@ def createDataframe(responseList):
     return df
 
 def main():
-    responseDir = "./ollamaResponse"
+    responseDir = "./data/ollamaResponse"
     responseList = loadAllResponses(responseDir)
     responseDF = createDataframe(responseList)
     # Re-order the columns based on the rating value
     responseDF = responseDF.sort_values(by='Rating', ascending=False)
     # Get today's articles
-    articlePath = "todaysFeed.csv"
+    articlePath = "./data/todaysFeed.csv"
     articleDF = pd.read_csv(articlePath)
     # Merge the two dataframes on the ArticleID
     mergedDF = pd.merge(responseDF, articleDF, left_on='ArticleID', right_on='id')
     # Save the merged dataframe to a json file for report generation
     articlesDict = mergedDF.to_dict(orient='records')
-    path = "ratedArticles.json"
+    path = "./data/ratedArticles.json"
     # Save to a file with indentation for better readability
     with open(path, 'w') as f:
         json.dump(articlesDict, f, indent=2)
