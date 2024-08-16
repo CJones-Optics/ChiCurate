@@ -1,0 +1,11 @@
+:root {
+    --body-bg-color: #eff1f5;
+    --font-color: #4c4f69;
+    --item-box-border-color: #179299;
+    --item-box-bg-color: #ccd0da;
+    --button-bg-color: #dc8978;
+    --button-hover-bg-color: #dd7878;
+    --button-text-color: #4c4f69;
+    --rating-bar-bg-color: #1e2030;
+    --rating-bar-filled-color: #40a025;
+}

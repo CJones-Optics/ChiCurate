@@ -62,8 +62,8 @@ LLM ought to act, and the schema for the output. You shouldn't need to change
 this, but it may be useful to optimise.
 
 ### `config.yaml`
-This file is used to configure the model used and the batch size of the articles
-considered.
+This file is used to configure the model used, the batch size of the articles
+considered and the colour theme of the output.
 
 #### Choice of Model
 The choice of model will have a massive impact on the models performance. Larger

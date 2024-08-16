@@ -1,15 +1,4 @@
 /* CSS Variables */
-:root {
-    --body-bg-color: #24273a;
-    --font-color: #cad3f5;
-    --item-box-border-color: #c6a0f6;
-    --item-box-bg-color: #363a4f;
-    --button-bg-color: #b7bdf8;
-    --button-hover-bg-color: #c6a0f6;
-    --button-text-color: #181926;
-    --rating-bar-bg-color: #1e2030;
-    --rating-bar-filled-color: #a6da95;
-}
 
 body {
     background-color: var(--body-bg-color);
@@ -47,10 +36,11 @@ body {
 .rating-bar-container {
     width: 100%;
     background-color: var(--rating-bar-bg-color); /* Light grey background */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 10px; /* Rounded corners */
     overflow: hidden;
     height: 20px; /* Fixed height for the bar */
     margin-bottom: 10px; /* Space below the bar */
+    margin-top: 10px;
 }
 
 .rating-bar {

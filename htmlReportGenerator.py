@@ -1,6 +1,7 @@
 # Read the list of items in ofInterest.json and create an HTML report of the items.
 import json
 import pandas as pd
+import yaml
 import html
 
 def load_articles_from_json(file_path):
@@ -28,9 +29,19 @@ def load_articles_from_json(file_path):
         return []
 
 def main():
+    # colourPath = "data/theme/catppuccin-Mocha.css"
+    # Get theme from config.yaml
+    with open("config.yaml", 'r') as f:
+        config = yaml.safe_load(f)
+    themeName = config['theme']
+    colourPath = f"data/theme/{themeName}.css"
+
+    with open(colourPath, 'r') as f:
+        style  = f.read()
     stylePath = "style.css"
     with open(stylePath, 'r') as f:
-        style = f.read()
+        style += f.read()
+
     # Read the list of items in ofInterest.json
     items = load_articles_from_json('./data/ratedArticles.json')
     # Create an HTML report of the items
@@ -41,6 +52,7 @@ def main():
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Daily ArXiv Roundup</title>
+            <link rel="icon" href="icon.svg" type="image/x-icon">
         <style>
         {style}
         </style>
