@@ -36,7 +36,6 @@ def parse_rss_feed_DF(url):
     feed_items = []
     # Loop through each entry in the feed
     for entry in feed.entries:
-        print(entry)
         # Create a dictionary for each entry
         item = {
             'id': entry.get('id', None),
