@@ -12,6 +12,10 @@ if __name__ == "__main__":
             items = parse_rss_feed_DF(row[0])
             df = pd.concat([df, items], ignore_index=True)
     df = df.drop_duplicates(subset='id')
+
+    if df.empty:
+        exit(1)
+
     # Save the dataframe to a csv file
     df.to_csv('./data/todaysFeed.csv', index=False)
     # dump the id,title and abstract to json, one line per entry

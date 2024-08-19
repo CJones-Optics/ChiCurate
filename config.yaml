@@ -1,4 +1,4 @@
 # User Parameters
-Model: "mistral-nemo:latest" # Specify the model name
+Model: "qwen2:1.5b" # Specify the model name
 batch-size: 5 # How many titles to compare at once.
 theme: "solarized-light"

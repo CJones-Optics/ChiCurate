@@ -5,9 +5,14 @@ uses an LLM running on Ollama to rank the papers in order of
 relevance.
 
 # Requirements
-- Linux Install
-  - It should work on MacOS, but I haven't tested it.
-  - It should work in WSL.
+
+## Operating System'
+The script is designed to work on Linux. This includes
+Windows Subsystem for Linux (WSL), and has been tested.
+Read the intstillation documentation. It should work on MacOS,
+but I haven't tested it.
+
+
 - Python >3.12.4
 - Ollama
 - Local Ollama model:
@@ -17,25 +22,77 @@ relevance.
 ## Ollama
 ### Install
 NetworkChuck has a good video on how to install Ollama.
-So does Ollama's website itself. As of August 2024, the
+So does Ollama's website itself.
+
+#### Linux
+As of August 2024, the
 installation process for linux is:
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
+#### Windows
+
+1. Install Windows Subsystem for Linux (WSL)
+This is a linux environment that runs on Windows.
+It is the easiest way to run Ollama on Windows.
+
+```batch
+wsl --install
+```
+
+This *should* install Ubuntu within WSL automatically.
+If it didn't (Like it didnt for me) run
+```batch
+wsl --install Ubuntu
+```
+
+2. Setup Ubuntu VM
+You will be prompted to setup a username and password. After this, update the
+newly installed Ubuntu VM.
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+And install `pip` and `python-venv`
+```bash
+sudo apt-get install python3-pip python3-venv
+```
+
+From here you can follow the Linux Instructions.
+
+#### MacOS
+There is a dedicated installer for Ollama on MacOS. Download
+using that. The other instructions after getting Ollama running
+should be the same.
+
+## LLM Model
+You have the choice of which model to use. There are tradeoffs
+in the model selection. See my blog for details. I have found
+mistral-nemo to be the best for my use case.
+
+```bash
+ollama pull mistral-nemo
+```
+
+You can pull as many models as you like, and try them out by
+altering the `conifg.yaml` file.
+
 ## Script
+If you are using WSL, ensure you run the following commands within the Ubuntu terminal.
 ### Through Git
 - Clone the repo
 - Use pip to install the requirements
 ```bash
 git clone
+cd ./ArXivCurator
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## One line download
+## One line download (BETA)
 ```bash
-
-pip install -r requirements.txt
-```
+curl -L https://github.com/CJones-Optics/ArXivCurator/archive/refs/heads/main.zip -o temp.zip && unzip temp.zip && cd ArXivCurator-main && pip install -r requirements.txt && cd .. && rm temp.zip```
 
 # Usage
 ## Configuration

@@ -31,10 +31,12 @@ def parse_rss_feed(url):
 def parse_rss_feed_DF(url):
     # Parse the RSS feed
     feed = feedparser.parse(url)
+
     # Initialize a list to store the feed items
     feed_items = []
     # Loop through each entry in the feed
     for entry in feed.entries:
+        print(entry)
         # Create a dictionary for each entry
         item = {
             'id': entry.get('id', None),
