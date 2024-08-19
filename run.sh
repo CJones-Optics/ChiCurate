@@ -26,5 +26,17 @@ echo "Inference complete, generating report"
 python3 ./parseOutputs.py
 python3 ./htmlReportGenerator.py
 
-echo "Report generated, Opening in browser"
-xdg-open ./report.html
+echo "Report generated"
+
+if grep -q "^os:" config.yaml && [ "$(awk '/^os:/ {print $2}' config.yaml | tr -d '"' | tr -d "'")" = "windows" ]; then
+    echo "OS is set to Windows"
+    echo "saving to path"
+    # Read the path from config.yaml
+    path=$(awk '/^path:/ {print $2}' config.yaml | tr -d '"' | tr -d "'")
+    # Add the mnt point to it
+    path="/mnt/$path"
+    mv ./report.html $path
+else
+    echo "OS is not set to Windows, opening report in browser"
+    xdg-open ./report.html
+fi
