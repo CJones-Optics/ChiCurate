@@ -34,7 +34,7 @@ if grep -q "^os:" config.yaml && [ "$(awk '/^os:/ {print $2}' config.yaml | tr -
     # Read the path from config.yaml
     path=$(awk '/^path:/ {print $2}' config.yaml | tr -d '"' | tr -d "'")
     # Add the mnt point to it
-    path="/mnt/$path"
+    path="/mnt/c/$path"
     mv ./report.html $path
 else
     echo "OS is not set to Windows, opening report in browser"
