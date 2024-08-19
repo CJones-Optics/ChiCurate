@@ -2,3 +2,5 @@
 Model: "qwen2:1.5b" # Specify the model name
 batch-size: 5 # How many titles to compare at once.
 theme: "solarized-light"
+os: "unix" # "unix" or "windows"
+path: "C:\\Users\\cjones\\Desktop" # Path to the data folder

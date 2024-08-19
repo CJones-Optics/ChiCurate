@@ -143,6 +143,14 @@ A batch size of 5 when using titles only seems to be a good middle ground. It al
 model to have several articles to compare against each other when doing the rankingm whilst
 not being so large that the model hallucinates.
 
+#### NOTE FOR WINDOWS USERS
+If you are using WSL, you will want to move the generated report out of your linux
+subsystem and into your windows filesystem. To do this switch `os` to `windows` in the
+`config.yaml` file, and set the path to the desired location.
+
+*Note 2* You will need to use the windows path with linux style slashes. For example:
+`Users/username/Documents/ArXivCurator/` this might get neatned up in future versions.
+
 ## Running
 The entire script can be run with the following command:
 ```bash
