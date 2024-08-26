@@ -93,6 +93,8 @@ pip install -r requirements.txt
 ## One line download (BETA)
 ```bash
 curl -L https://github.com/CJones-Optics/ArXivCurator/archive/refs/heads/main.zip -o temp.zip && unzip temp.zip && cd ArXivCurator-main && pip install -r requirements.txt && cd .. && rm temp.zip```
+```
+
 
 # Usage
 ## Configuration
