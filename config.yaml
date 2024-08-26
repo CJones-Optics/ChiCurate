@@ -1,6 +1,6 @@
 # User Parameters
-Model: "qwen2:1.5b" # Specify the model name
+Model: "mistral-nemo" # Specify the model name
 batch-size: 5 # How many titles to compare at once.
-theme: "solarized-light"
+theme: "catppuccin-Mocha"
 os: "unix" # "unix" or "windows"
-path: "C:\\Users\\cjones\\Desktop" # Path to the data folder
+path: "Users/cjones/Desktop" # Path to the data folder

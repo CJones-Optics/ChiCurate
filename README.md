@@ -6,7 +6,7 @@ relevance.
 
 # Requirements
 
-## Operating System'
+## Operating System
 The script is designed to work on Linux. This includes
 Windows Subsystem for Linux (WSL), and has been tested.
 Read the intstillation documentation. It should work on MacOS,
@@ -21,8 +21,8 @@ but I haven't tested it.
 # Installation
 ## Ollama
 ### Install
-NetworkChuck has a good video on how to install Ollama.
-So does Ollama's website itself.
+NetworkChuck has a good video on how to install Ollama. [VIDEO](https://www.youtube.com/watch?v=Wjrdr0NU4Sk&t=1s)
+So does Ollama's website itself. [OLLAMA](https://ollama.com/download)
 
 #### Linux
 As of August 2024, the
