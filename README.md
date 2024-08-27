@@ -4,9 +4,8 @@ It is a simple tool which reads the rss feed of ArXiv and
 uses an LLM running on Ollama to rank the papers in order of
 relevance.
 
-See my youtube video for a demonstration of the tool.
+See my [youtube](https://www.youtube.com/watch?v=sRm8aQjoEC0) video for a demonstration of the tool.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sRm8aQjoEC0?si=GSi7x_vfZJkfB4Ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Requirements
 
