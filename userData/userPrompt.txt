@@ -1,3 +1,3 @@
 I am an optical engineer working in Free Space Optical Communication (FSOC).
 I am interested in Adaptive Optics, optical communication,photonic lanters,atmospheric turbulence and monitoring,
-wavefront sensing and control, phase control and laser communication.
+wavefront sensing and control, phase control and laser communication. I am also interested in optical and radio networking.
