@@ -7,7 +7,7 @@ source ./.venv/bin/activate
 
 # Run the first element, if exit code is not 0, exit
 echo "Starting the data collection"
-python3 ./main.py
+python3 ./pullFeeds.py
 exit_code=$?
 
 if [ $exit_code -eq 1 ]; then
@@ -21,7 +21,6 @@ fi
 # Start the inference
 echo "Starting inference"
 python3 ./ollamaCall.py
-
 echo "Inference complete, generating report"
 python3 ./parseOutputs.py
 python3 ./htmlReportGenerator.py
