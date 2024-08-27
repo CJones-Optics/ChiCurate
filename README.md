@@ -4,6 +4,10 @@ It is a simple tool which reads the rss feed of ArXiv and
 uses an LLM running on Ollama to rank the papers in order of
 relevance.
 
+See my youtube video for a demonstration of the tool.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sRm8aQjoEC0?si=GSi7x_vfZJkfB4Ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Requirements
 
 ## Operating System
@@ -165,3 +169,35 @@ My machine is a AMD Ryzen™ 5 5600G without any discrete GPU, and 16GB of RAM.
 Since it takes a while, but is not time sensitive, so I have a cron job that runs
 the script every day at 8am. This way I can wake up to a curated list of papers
 every morning.
+
+
+# Dev Notes
+The program is run through the `run.sh` script.
+This script is used to activate the enter the virtual environment,
+and run the 5 python scripts which compose the application.
+
+## 1 PullFeeds.py
+This simply pulls the rss feeds from the URLs in the `feeds.csv` file.
+It then de-duplicates them and saves them to a csv.
+
+## 2 ollamaCall.py
+This is where the LLM black magic happens. It grabs todays papers from the
+csv and pases the system and user prompt to the LLM. As much of the config
+is done statically as possible to expose control to the user. The LLM will
+then save its outputs as "json" files.
+
+## 3 parseOutputs.py
+LLMs arn't very good at JSON.
+
+This bit takes the LLMs attempts at json formatting and Regexes
+it to a consistent json schema,
+
+## 4 htmlReportGenerator.py
+This is the bit that takes the JSON and makes it into a nice HTML report.
+
+It constructs the html file just by concatenating strings. The CSS is
+pulled from the file in the data/theme directory and specified in the
+config.yaml file.
+
+After all this it wither opens the html file in your default web browser
+or saves it somewhere on your computer.
