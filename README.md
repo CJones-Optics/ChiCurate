@@ -1,3 +1,7 @@
+**NOTE:** This project is no longer being maintained, it is merged into ChiScraper - https://chiscraper.github.io/
+
+Leaving this up in case I eventually want to extend it to arbitrary RSS feeds. (Or if anyone who sees this want to)
+
 # ArXiv Curator
 This is a simple tool to help you curate your arXiv papers.
 It is a simple tool which reads the rss feed of ArXiv and
